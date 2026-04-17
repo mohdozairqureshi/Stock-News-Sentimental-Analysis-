@@ -1,0 +1,87 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1500" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091326"/>
+      <stop offset="0.45" stop-color="#0A3A4A"/>
+      <stop offset="1" stop-color="#E3A64C"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="rgba(255,255,255,0.22)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.04)"/>
+    </linearGradient>
+    <linearGradient id="lineGreen" x1="280" y1="500" x2="1340" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67F7B1"/>
+      <stop offset="1" stop-color="#B9FFE5"/>
+    </linearGradient>
+    <filter id="blurGlow" x="0" y="0" width="1600" height="900" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <circle cx="1310" cy="165" r="142" fill="#FFD27B" fill-opacity="0.24"/>
+  <circle cx="1310" cy="165" r="96" fill="#FFE1A8" fill-opacity="0.24"/>
+
+  <path d="M0 722C170 668 292 642 438 654C584 666 668 746 835 742C1023 736 1140 606 1292 580C1410 560 1490 596 1600 648V900H0V722Z" fill="#133F4F" fill-opacity="0.85"/>
+  <path d="M0 770C190 712 302 708 448 732C575 752 692 810 856 800C1015 790 1146 688 1284 672C1400 658 1497 694 1600 744V900H0V770Z" fill="#0B2434" fill-opacity="0.92"/>
+
+  <g opacity="0.88">
+    <rect x="110" y="500" width="95" height="270" rx="6" fill="#0E2231"/>
+    <rect x="220" y="442" width="82" height="328" rx="6" fill="#122A3B"/>
+    <rect x="325" y="380" width="96" height="390" rx="6" fill="#0D2536"/>
+    <rect x="445" y="468" width="76" height="302" rx="6" fill="#143145"/>
+    <rect x="540" y="332" width="110" height="438" rx="6" fill="#112B3E"/>
+    <rect x="676" y="288" width="94" height="482" rx="6" fill="#0B2434"/>
+    <rect x="792" y="420" width="84" height="350" rx="6" fill="#112B3E"/>
+    <rect x="900" y="355" width="114" height="415" rx="6" fill="#0D2536"/>
+    <rect x="1038" y="314" width="88" height="456" rx="6" fill="#112B3E"/>
+    <rect x="1146" y="386" width="102" height="384" rx="6" fill="#0E2231"/>
+    <rect x="1274" y="286" width="114" height="484" rx="6" fill="#122A3B"/>
+  </g>
+
+  <g fill="#D8F4FF" fill-opacity="0.44">
+    <rect x="128" y="538" width="9" height="12"/><rect x="148" y="538" width="9" height="12"/><rect x="168" y="538" width="9" height="12"/>
+    <rect x="238" y="472" width="9" height="12"/><rect x="258" y="472" width="9" height="12"/><rect x="278" y="472" width="9" height="12"/>
+    <rect x="238" y="500" width="9" height="12"/><rect x="258" y="500" width="9" height="12"/><rect x="278" y="500" width="9" height="12"/>
+    <rect x="344" y="420" width="9" height="12"/><rect x="364" y="420" width="9" height="12"/><rect x="384" y="420" width="9" height="12"/>
+    <rect x="344" y="448" width="9" height="12"/><rect x="364" y="448" width="9" height="12"/><rect x="384" y="448" width="9" height="12"/>
+    <rect x="558" y="370" width="10" height="12"/><rect x="580" y="370" width="10" height="12"/><rect x="602" y="370" width="10" height="12"/>
+    <rect x="558" y="398" width="10" height="12"/><rect x="580" y="398" width="10" height="12"/><rect x="602" y="398" width="10" height="12"/>
+    <rect x="694" y="330" width="10" height="12"/><rect x="716" y="330" width="10" height="12"/><rect x="738" y="330" width="10" height="12"/>
+    <rect x="918" y="394" width="10" height="12"/><rect x="940" y="394" width="10" height="12"/><rect x="962" y="394" width="10" height="12"/>
+    <rect x="1294" y="324" width="10" height="12"/><rect x="1316" y="324" width="10" height="12"/><rect x="1338" y="324" width="10" height="12"/>
+  </g>
+
+  <g opacity="0.48" filter="url(#blurGlow)">
+    <path d="M248 625L372 570L500 612L614 468L738 504L864 432L990 454L1108 320L1234 354L1366 248" stroke="#67F7B1" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <path d="M248 625L372 570L500 612L614 468L738 504L864 432L990 454L1108 320L1234 354L1366 248" stroke="url(#lineGreen)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#67F7B1">
+    <circle cx="248" cy="625" r="8"/>
+    <circle cx="372" cy="570" r="8"/>
+    <circle cx="500" cy="612" r="8"/>
+    <circle cx="614" cy="468" r="8"/>
+    <circle cx="738" cy="504" r="8"/>
+    <circle cx="864" cy="432" r="8"/>
+    <circle cx="990" cy="454" r="8"/>
+    <circle cx="1108" cy="320" r="8"/>
+    <circle cx="1234" cy="354" r="8"/>
+    <circle cx="1366" cy="248" r="8"/>
+  </g>
+
+  <g opacity="0.12">
+    <path d="M120 180H1480" stroke="white" stroke-width="2"/>
+    <path d="M120 280H1480" stroke="white" stroke-width="2"/>
+    <path d="M120 380H1480" stroke="white" stroke-width="2"/>
+    <path d="M120 480H1480" stroke="white" stroke-width="2"/>
+    <path d="M120 580H1480" stroke="white" stroke-width="2"/>
+    <path d="M120 680H1480" stroke="white" stroke-width="2"/>
+  </g>
+
+  <rect x="86" y="92" width="630" height="186" rx="28" fill="url(#glass)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="130" y="168" fill="#F8F3E4" font-size="52" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Market Sentiment Dashboard</text>
+  <text x="132" y="222" fill="#CBE8E5" font-size="26" font-family="Segoe UI, Arial, sans-serif">News headlines, Yahoo Finance data, and machine learning in one view.</text>
+</svg>
