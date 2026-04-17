@@ -1,0 +1,5 @@
+{
+  "best_model": "Linear SVM",
+  "accuracy": 0.5226,
+  "market_ticker": "^DJI"
+}
