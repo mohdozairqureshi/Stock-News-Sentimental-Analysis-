@@ -1,43 +1,101 @@
-# Final Year Project
+📈 Stock News Sentiment Analysis
 
-## Title
+A machine learning project that analyzes financial news to estimate stock sentiment and provide predictive insights for market trends.
 
-Stock Market Trend Prediction Using News Headline Sentiment Analysis and Machine Learning
+🚀 Overview
 
-## Scope
+This project leverages Natural Language Processing (NLP) and Machine Learning to extract sentiment from news articles related to stock tickers. The goal is to explore whether news sentiment can serve as a signal for stock movement.
 
-This project predicts whether the market trend will move up or down based on:
+Instead of just building a model, the focus was on end-to-end pipeline development — from data collection to deployment.
 
-- financial news headlines
-- sentiment analysis
-- machine learning classification
+💡 Key Highlights
+Built a complete news → sentiment → prediction pipeline
+Integrated real-time data using Yahoo Finance API
+Compared multiple ML models to select the best performer
+Deployed an interactive web app using Streamlit
+Achieved consistent model performance (~50–60%) on noisy real-world data
 
-## Initial setup
 
-- virtual environment created in `.venv`
-- dependencies listed in `requirements.txt`
-- raw datasets downloaded in `data/raw`
-- baseline training code added in `src/`
 
-## Run commands
+🧠 Approach
+Data Collection
+Fetched financial news articles using ticker symbols via Yahoo Finance API
+Text Processing
+Applied NLP techniques:
+TF-IDF vectorization
+Tokenization & stopword removal (NLTK)
+Positive/Negative word analysis
+Model Selection
 
-From the project root:
+Tested multiple algorithms:
 
-```powershell
-.\.venv\Scripts\activate
-python -m src.train
-python -m src.eda
-streamlit run src/app.py
-```
+Logistic Regression
+Random Forest (Selected)
+Linear SVM
 
-## Current workflow
+Random Forest was chosen due to:
 
-- historical financial headlines from the project dataset
-- Yahoo Finance API for market price history and technical features
-- up to 5 recent Yahoo Finance news articles in the live Streamlit demo
-- model comparison across Logistic Regression, Random Forest, and Linear SVM
-- analysis charts generated in `report/figures`
+Better generalization on noisy text data
+Higher recall (important for capturing sentiment signals)
 
-## Important note
 
-This project predicts market direction using headline sentiment and text features. It is intended for academic demonstration only.
+
+| Model               |   Accuracy | Precision |     Recall |   F1 Score |
+| ------------------- | ---------: | --------: | ---------: | ---------: |
+| Logistic Regression |     51.26% |    51.15% |     77.61% |     61.66% |
+| Random Forest       |     50.25% |    50.40% | **95.02%** | **65.86%** |
+| Linear SVM          | **52.26%** |    52.03% |     70.15% |     59.75% |
+
+
+
+
+Note: Financial sentiment prediction is inherently noisy; results reflect real-world complexity rather than overfitted benchmarks.
+
+
+
+
+🛠️ Tech Stack
+
+Languages
+
+Python (ML & backend)
+HTML/CSS (frontend)
+
+
+
+
+Libraries & Tools
+
+pandas, numpy
+scikit-learn
+nltk
+matplotlib, seaborn
+streamlit
+joblib
+yfinance
+🌐 Deployment
+Deployed using Streamlit for an interactive user interface
+Users can input stock tickers and view sentiment analysis results in real time
+
+
+
+
+📌 Features
+Real-time news fetching
+Sentiment classification of articles
+Model comparison and evaluation
+Simple UI for non-technical users
+
+
+
+⚠️ Limitations
+Moderate accuracy due to unpredictable nature of financial markets
+Relies solely on news sentiment (no technical indicators)
+Limited dataset size
+
+
+🔮 Future Improvements
+Incorporate deep learning models (LSTM, BERT)
+Combine sentiment with historical stock data
+Improve dataset quality and size
+Add portfolio-level analysis
