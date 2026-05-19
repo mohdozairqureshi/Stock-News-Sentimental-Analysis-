@@ -74,6 +74,8 @@ streamlit
 joblib
 yfinance
 AI MODELS USED FOR BUGS AND ERROR HANDLING : CODEX(OPEN AI )
+
+
 🌐 Deployment
 Deployed using Streamlit for an interactive user interface
 Users can input stock tickers and view sentiment analysis results in real time
