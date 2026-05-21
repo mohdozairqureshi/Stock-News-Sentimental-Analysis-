@@ -1,5 +1,9 @@
 📈 Stock News Sentiment Analysis
+
+
+
 Access the APP Here: [Stocker]([url](https://stockerbyozair.streamlit.app/))
+
 A machine learning project that analyzes financial news to estimate stock sentiment and provide predictive insights for market trends.
 
 🚀 Overview
