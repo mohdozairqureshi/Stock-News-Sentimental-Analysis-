@@ -2,7 +2,7 @@
 
 
 
-Access the APP Here:  [)](https://stockerbyozair.streamlit.app/)
+Access the APP Here:  [Click Here](https://stockerbyozair.streamlit.app/)
 
 A machine learning project that analyzes financial news to estimate stock sentiment and provide predictive insights for market trends.
 
