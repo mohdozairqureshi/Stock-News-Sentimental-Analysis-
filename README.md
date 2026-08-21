@@ -77,6 +77,8 @@ matplotlib, seaborn
 streamlit
 joblib
 yfinance
+
+NOTE:
 AI MODELS USED FOR BUGS AND ERROR HANDLING : CODEX(OPEN AI )
 
 
